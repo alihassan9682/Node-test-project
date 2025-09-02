@@ -1,0 +1,69 @@
+# Dependencies
+node_modules/
+jspm_packages/
+
+# Build outputs
+dist/
+build/
+lib/
+.out/
+.next/
+.nuxt/
+out/
+.vercel/
+.cache/
+.parcel-cache/
+.turbo/
+
+# Logs & diagnostics
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+*.pid
+*.seed
+*.pid.lock
+
+# Testing & coverage
+coverage/
+.nyc_output/
+.jest-cache/
+.jest/
+
+# Env files (keep example)
+.env
+.env.*
+!.env.example
+
+# OS & editors
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.swp
+
+# TypeScript
+*.tsbuildinfo
+
+# Runtime caches
+.next/cache/
+.eslintcache
+.stylelintcache
+
+# Package managers
+.pnp.*
+.pnpm-store/
+.npm/
+.yarn/*
+!/.yarn/releases
+!/.yarn/plugins
+!/.yarn/sdks
+!/.yarn/versions
+
+# Misc
+*.tgz
