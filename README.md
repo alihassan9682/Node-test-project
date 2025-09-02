@@ -72,6 +72,8 @@ http://localhost:3001/some/invalid/route
 | async.js | Async.js | Medium | Medium |
 | promises.js | Promises | Medium | Good |
 | async-await.js | Async/Await | Low | High |
+| RxJS.js | RxJS (Streams) | Low | High |
+
 
 ## Features
 
