@@ -12,6 +12,7 @@ Create a server that responds to `/I/want/title` route and fetches website title
 - **`async.js`** - Async.js library implementation (Port 3002)  
 - **`promises.js`** - Promises implementation (Port 3003)
 - **`async-await.js`** - Modern async/await syntax (Port 3004)
+- **`RxJs.js`** -  Using RxJS Observables (Port 3005)
 
 ## Quick Start
 
@@ -23,6 +24,7 @@ node callbacks.js     # Port 3001
 node async.js         # Port 3002
 node promises.js      # Port 3003
 node async-await.js   # Port 3004
+node RxJs.js   # Port 3005
 ```
 
 ## Test URLs
@@ -73,12 +75,12 @@ http://localhost:3001/some/invalid/route
 
 ## Features
 
-- ✅ Single route: `/I/want/title`
-- ✅ Multiple URL support via query parameters
-- ✅ HTTP/HTTPS support
-- ✅ Error handling (returns "NO RESPONSE" for failed requests)
-- ✅ 404 handling for invalid routes
-- ✅ Clean, simple implementations
+-  Single route: `/I/want/title`
+-  Multiple URL support via query parameters
+-  HTTP/HTTPS support
+-  Error handling (returns "NO RESPONSE" for failed requests)
+-  404 handling for invalid routes
+-  Clean, simple implementations
 
 ---
 
