@@ -5,7 +5,7 @@
   "scripts": {
     "start": "node index.js",
     "callbacks": "node server-callbacks.js",
-    "async": "node server-async.js", 
+    "async": "node server-async.js",
     "promises": "node server-promises.js",
     "async-await": "node server-async-await.js",
     "test-servers": "node test-servers.js",
@@ -16,6 +16,7 @@
   "description": "Website title fetcher using different control flow strategies",
   "dependencies": {
     "async": "^3.2.6",
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "rxjs": "^7.8.2"
   }
 }
